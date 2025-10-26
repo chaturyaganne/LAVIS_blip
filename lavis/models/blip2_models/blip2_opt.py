@@ -21,7 +21,7 @@ import transformers
 
 
 @registry.register_model("blip2_opt_visalign")
-class Blip2OPTVisAlign(Blip2Base):
+class Blip2OPT(Blip2Base):
     """
     BLIP2 OPT model with VisAlign modifications.
     
